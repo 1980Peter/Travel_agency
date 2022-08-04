@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container  {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.button {
+    width: 180px;
+    height: 60px;
+    border-color: #fb7c07;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fb7c07;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: #fb7c07;
+    color: white;
+    box-shadow: 0px 20px 20px #fdbc80 ;
+    transition: 500ms;
+}
